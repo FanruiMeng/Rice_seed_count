@@ -1,0 +1,7 @@
+D:/D_desktop/*zip filter=lfs diff=lfs merge=lfs -text
+D:/D_desktop/*.zip filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*[[:space:]].zip filter=lfs diff=lfs merge=lfs -text
+*[[:space:]].a filter=lfs diff=lfs merge=lfs -text
+*[[:space:]].zip filter=lfs diff=lfs merge=lfs -text
+*[[:space:]].zip filter=lfs diff=lfs merge=lfs -text
