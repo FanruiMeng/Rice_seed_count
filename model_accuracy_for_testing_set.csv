@@ -1,0 +1,17 @@
+Name,TRUE,Predection,TP,FP,FN,Precision,Recall,Accuracy,F1,FNR
+Rice_1000_seeds_2.jpg,1000,992,992,0,8,1,0.992,0.992,0.995984,0.008
+Rice_1000_seeds_3.jpg,997,989,989,0,8,1,0.991976,0.991976,0.995972,0.008024
+Rice_100_seeds_1.jpg,100,100,100,0,0,1,1,1,1,0
+Rice_100_seeds_2.jpg,100,100,100,0,0,1,1,1,1,0
+Rice_100_seeds_3.jpg,100,100,100,0,0,1,1,1,1,0
+Rice_150_seeds_1.jpg,150,150,150,0,0,1,1,1,1,0
+Rice_150_seeds_2.jpg,150,150,150,0,0,1,1,1,1,0
+Rice_150_seeds_3.jpg,150,149,149,0,1,1,0.993333,0.993333,0.996655,0.006667
+Rice_500_seeds_1.jpg,500,500,500,0,0,1,1,1,1,0
+Rice_500_seeds_2.jpg,500,500,500,0,0,1,1,1,1,0
+Rice_500_seeds_3.jpg,500,500,500,0,0,1,1,1,1,0
+Rice_50_seeds_1.jpg,50,50,50,0,0,1,1,1,1,0
+Rice_50_seeds_2.jpg,50,49,49,0,1,1,0.98,0.98,0.989899,0.02
+Rice_50_seeds_3.jpg,50,50,50,0,0,1,1,1,1,0
+,,,,,,,,,,
+#Note: TRUE: Seed number from manual count; Predection: seed number from model prediction; TP: true positive; FP: false positive; FN: false negative; FNR: false negative rate.,,,,,,,,,,
