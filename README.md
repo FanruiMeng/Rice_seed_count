@@ -23,7 +23,7 @@
 * `cp frozen_model models/research mscoco_label_map.pbtxt work_dir` #copy frozen_model, research directory under models, mscoco_label_map.pbtxt into work_dir.
 
 ## 4. Seed detection using trained model
-There are two ways to detect seed: Jupyer notebook and terminal
+There are two ways to detect seed: Jupyer notebook and on terminal, just choose a way you like
 ### Jupyter:
 * Assign home directory for jupyter
 
