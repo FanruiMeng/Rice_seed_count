@@ -18,8 +18,8 @@
 	* `cp object_detection/packages/tf1/setup.py .`
 	* `python -m pip install .`
 ## 3. Create work directory 
-	mkdir work_dir #Just create a work_dir dirctory if in windows.  
-	cp frozen_model models/research mscoco_label_map.pbtxt work_dir #copy frozen_model, research directory under models, mscoco_label_map.pbtxt into work_dir.
+	* `mkdir work_dir` #Just create a work_dir dirctory if in windows.  
+	* `cp frozen_model models/research mscoco_label_map.pbtxt work_dir` #copy frozen_model, research directory under models, mscoco_label_map.pbtxt into work_dir.
 
 ## 4. Seed detection using trained model
 ### Jupyter:
