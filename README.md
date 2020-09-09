@@ -1,4 +1,4 @@
-# Arabidopsis Seed Detection
+# Rice Seed count
 
 ## 1. Anaconda, tensorflow(1.X) (version lower than 2.0) installation
   * For cpu version:
@@ -18,8 +18,8 @@
 	* `cp object_detection/packages/tf1/setup.py .`
 	* `python -m pip install .`
 ## 3. Create work directory 
-	mkdir work_dir
-	cp graph_train models/research mscoco_label_map.pbtxt work_dir
+	mkdir work_dir #Just create a work_dir dirctory if in windows.  
+	cp frozen_model models/research mscoco_label_map.pbtxt work_dir #copy frozen_model, research directory under models, mscoco_label_map.pbtxt into work_dir.
 
 ## 4. Seed detection using trained model
 ### Jupyter:
@@ -31,10 +31,6 @@
 	B. Change home directory to work directory in config file:
 	
 		c.NotebookApp.notebook_dir = 'work_dir'
-		
-* split scanned images into single plate.
-
-   `python 00_1_split_scan_images.py`
    
 * run detect_noimage.ipynb at jupyter-notebook
 
