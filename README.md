@@ -34,8 +34,9 @@ There are two ways to detect seed: Jupyer notebook and on terminal, just choose 
 	
 		c.NotebookApp.notebook_dir = 'work_dir'
    
-* Run `detect_noimage.ipynb` at jupyter-notebook #The second line change to your absolute path of work_dir
+* Run `detect_noimage.ipynb` at jupyter-notebook 
 
+#The second line change to your absolute path of work_dir
 #If you want to save the results images, please use detect_save_image_results.ipynb
 ### Terminal 
  * `base_path`: the absolute path including graph_train director
