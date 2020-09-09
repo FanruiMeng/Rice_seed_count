@@ -20,7 +20,7 @@
 ## 3. Create work directory 
 
 * `mkdir work_dir` # Just create a work_dir dirctory if in windows.  
-* `cp frozen_model models/research mscoco_label_map.pbtxt work_dir` #copy frozen_model, research directory under models, mscoco_label_map.pbtxt into work_dir.
+* `cp frozen_model models/research test_images mscoco_label_map.pbtxt work_dir` #copy frozen_model, research directory under models, test_images and mscoco_label_map.pbtxt into work_dir.
 
 ## 4. Seed detection using trained model
 There are two ways to detect seed: Jupyer notebook and on terminal, just choose a way you like
@@ -34,7 +34,9 @@ There are two ways to detect seed: Jupyer notebook and on terminal, just choose 
 	
 		c.NotebookApp.notebook_dir = 'work_dir'
    
-* Run `detect_noimage.ipynb` at jupyter-notebook #The second line change to your absolute path of work_dir
+* Run `detect_noimage.ipynb` at jupyter-notebook 
+
+#The second line change to your absolute path of work_dir
 
 #If you want to save the results images, please use detect_save_image_results.ipynb
 ### Terminal 
